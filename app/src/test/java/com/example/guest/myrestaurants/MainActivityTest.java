@@ -5,7 +5,7 @@ import android.os.Build;
 import android.widget.TextView;
 
 import com.example.guest.myrestaurants.ui.MainActivity;
-import com.example.guest.myrestaurants.ui.activityRestaurants;
+import com.example.guest.myrestaurants.ui.RestaurantsActivity;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -37,7 +37,7 @@ public class MainActivityTest {
     @Test
         public void secondActivityStarted() {
         activity.findViewById(R.id.findRestaurantButton).performClick();
-        Intent expectedIntent = new Intent(activity, activityRestaurants.class);
+        Intent expectedIntent = new Intent(activity, RestaurantsActivity.class);
         ShadowActivity shadowActivity = org.robolectric.Shadows.shadowOf(activity);
         Intent actualIntent = shadowActivity.getNextStartedActivity();
         assertTrue(actualIntent.filterEquals(expectedIntent));

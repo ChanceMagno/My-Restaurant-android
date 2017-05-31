@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             toast.setGravity(Gravity.CENTER, 0, 500);
             toast.show();
         } else {
-            Intent intent = new Intent(MainActivity.this, activityRestaurants.class);
+            Intent intent = new Intent(MainActivity.this, RestaurantsActivity.class);
             intent.putExtra("location", location);
             mLocationEditText.setText("");
             startActivity(intent);
