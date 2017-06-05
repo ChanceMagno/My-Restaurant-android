@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "773489416246",
+    "firebase_url": "https://meetups-bed2c.firebaseio.com",
+    "project_id": "meetups-bed2c",
+    "storage_bucket": "meetups-bed2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773489416246:android:3d9e9a4ee8305198",
+        "android_client_info": {
+          "package_name": "com.example.guest.myrestaurants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773489416246-ou3nhs0re3tqplv8h4apbf8g1s9crslu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.guest.myrestaurants",
+            "certificate_hash": "4c4d0a1c25ae194dc04f1a2b232013fde871a5ed"
+          }
+        },
+        {
+          "client_id": "773489416246-9lj5mbvouomt6npg7s5u2fktkeni1tbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiDqZkl8obi4-3EW98SEa9AKRBoWSY330"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773489416246-9lj5mbvouomt6npg7s5u2fktkeni1tbf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
