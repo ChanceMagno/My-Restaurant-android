@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
+import android.view.MenuInflater;
 
 import com.example.guest.myrestaurants.Adapters.FirebaseRestaurantViewHolder;
 import com.example.guest.myrestaurants.Constants;
@@ -20,6 +22,7 @@ public class SavedRestaurantListActivity extends AppCompatActivity {
     private DatabaseReference mRestaurantReference;
     private FirebaseRecyclerAdapter mFirebaseAdapter;
 
+
     @Bind(R.id.recyclerView)
     RecyclerView mRecyclerView;
 
@@ -34,6 +37,11 @@ public class SavedRestaurantListActivity extends AppCompatActivity {
         mRestaurantReference = FirebaseDatabase.getInstance().getReference(Constants.FIREBASE_CHILD_RESTAURANTS);
         setUpFirebaseAdapter();
     }
+
+
+
+
+
 
     private void setUpFirebaseAdapter(){
         mFirebaseAdapter = new FirebaseRecyclerAdapter<Restaurant, FirebaseRestaurantViewHolder>
